@@ -7,7 +7,7 @@ use anchor_spl::{
 declare_id!("4sN8PnN2ki2W4TFXAfzR645FWs8nimmsYeNtxM8RBK6A");
 
 #[program]
-pub mod spl_token_faucet {
+pub mod dummy_spl_token {
     use super::*;
 
     pub fn airdrop(ctx: Context<Airdrop>, mint_bump: u8, amount: u64) -> ProgramResult {
